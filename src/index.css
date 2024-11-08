@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    &>div {
+        border: 1px solid black;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .types {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        text-align: center;
+    }
+}
